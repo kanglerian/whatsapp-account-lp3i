@@ -1,0 +1,12 @@
+1. Install Git dan NodeJS
+2. Copy dan ekstrak Whatsapp Sender ke direktori C:/ dan letakan di luar berdekatan dengan folder Windows
+3. Buka folder whatsapp-sender-server kemudian klik kanan dan pilih Git bash
+4. Ketik npm install setelah itu tunggu sampai selesai
+5. Buka folder whatsapp-sender-server kemudian klik kanan dan pilih Git bash
+6. Ketik npm install pm2 -g
+7. Ketik npm install pm2-windows-startup -g
+8. Ketik pm2-startup install
+9. Ketik perintah pm2 start index.js untuk menjalankan server
+10. Ketik perintah pm2 save untuk menyiapkan server berjalan otomatis ketika menyalakan komputer (startup)
+11. Ketik perintah pm2 list untuk melihat status server sedang online atau offline
+12. Jika sudah online, maka buka aplikasi Whatsapp Sender Desktopnya
