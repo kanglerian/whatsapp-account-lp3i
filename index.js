@@ -26,6 +26,13 @@ app.get('/api/accounts/:id', async (req, res) => {
     return res.json(result);
 });
 
+app.get('/api/gurubk', async (req, res) => {
+    let result = {
+        status: true
+    };
+    return res.json(result);
+});
+
 
 app.listen(port, () => console.log(`Apps run on http://localhost:${port}`));
 
