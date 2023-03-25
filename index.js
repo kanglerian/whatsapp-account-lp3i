@@ -28,7 +28,7 @@ app.get('/api/accounts/:id', async (req, res) => {
 
 app.get('/api/gurubk', async (req, res) => {
     let result = {
-        status: true
+        status: false
     };
     return res.json(result);
 });
